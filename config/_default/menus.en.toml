@@ -22,26 +22,37 @@ name = "Pages"
 
 [[main]]
 parent = "Pages"
+weight = 5
 name = "Blog"
 pageRef = "/blog"
 
 [[main]]
 parent = "Pages"
+weight = 8
 name = "Contact"
 pageRef = "/contact"
 
 [[main]]
 parent = "Pages"
+weight = 9
 name = "Authors"
 pageRef = "/authors"
 
 [[main]]
 parent = "Pages"
+weight = 6
 name = "Categories"
 pageRef = "/categories"
 
 [[main]]
 parent = "Pages"
+weight = 7
+name = "Tags"
+pageRef = "/tags"
+
+[[main]]
+parent = "Pages"
+weight = 10
 name = "404 Page"
 pageRef = "/404"
 
