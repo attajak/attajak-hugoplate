@@ -60,4 +60,4 @@ SwiftKey Keyboard เป็นแป้นพิมพ์ AI ที่ยอด�
 
 **ที่มา:** [Microsoft Copilot](https://copilot.microsoft.com)
 
-![Swiftkey-Keyboard](https://attajak.github.io/assets/images/swiftkey-keyboard/swiftkey-keyboard.png))
+![Swiftkey-Keyboard](https://attajak.github.io/assets/images/swiftkey-keyboard/swiftkey-keyboard.png)
