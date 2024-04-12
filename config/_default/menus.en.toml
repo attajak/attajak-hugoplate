@@ -11,6 +11,7 @@ name = "Blog"
 weight = 2
 
 [[main]]
+parent = "Blog"
 name = "Blog Posts"
 pageRef = "/blog"
 weight = 3
