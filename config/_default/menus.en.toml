@@ -7,30 +7,39 @@ pageRef = "/"
 weight = 1
 
 [[main]]
-name = "About"
-pageRef = "/about"
+name = "Blog"
 weight = 2
 
 [[main]]
-name = "Elements"
-pageRef = "/elements"
+name = "Blog Posts"
+pageRef = "/blog"
 weight = 3
 
 [[main]]
+parent = "Blog"
 weight = 4
-name = "Pages"
+name = "Categories"
+pageRef = "/categories"
 
 [[main]]
-parent = "Pages"
+parent = "Blog"
 weight = 5
-name = "Blog"
-pageRef = "/blog"
+name = "Tags"
+pageRef = "/tags"
 
 [[main]]
-parent = "Pages"
-weight = 8
+name = "About"
+pageRef = "/about"
+weight = 6
+
+[[main]]
 name = "Contact"
 pageRef = "/contact"
+weight = 7
+
+[[main]]
+weight = 8
+name = "Pages"
 
 [[main]]
 parent = "Pages"
@@ -40,19 +49,18 @@ pageRef = "/authors"
 
 [[main]]
 parent = "Pages"
-weight = 6
-name = "Categories"
-pageRef = "/categories"
-
-[[main]]
-parent = "Pages"
-weight = 7
-name = "Tags"
-pageRef = "/tags"
-
-[[main]]
-parent = "Pages"
+name = "Elements"
+pageRef = "/elements"
 weight = 10
+
+[[footer]]
+name = "Privacy Policy"
+pageRef = "/privacy-policy"
+weight = 11
+
+[[main]]
+parent = "Pages"
+weight = 12
 name = "404 Page"
 pageRef = "/404"
 
@@ -64,8 +72,8 @@ pageRef = "/about"
 weight = 1
 
 [[footer]]
-name = "Elements"
-pageRef = "/elements"
+name = "Contact"
+pageRef = "/contact"
 weight = 2
 
 [[footer]]
