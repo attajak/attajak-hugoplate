@@ -14,7 +14,7 @@ channel = "stable-23_11"
 language = "nodejs"
 
 [deployment]
-run = ["sh", "-c", "npm run build && miniserve public --index index.html"]
+run = ["sh", "-c", "npm run build"]
 deploymentTarget = "cloudrun"
 ignorePorts = false
 
