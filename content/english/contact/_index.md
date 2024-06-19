@@ -5,7 +5,7 @@ description: "Support or Contact"
 draft: false
 ---
 
-Platform | Username
+Platform | Username/Links
 --- | ---
 GitHub | [attajak](https://github.com/attajak)
 GitHub Pages | [Attajak.GitHub.io](https://attajak.github.io)

@@ -1,7 +1,6 @@
-modules = ["nodejs-20:v8-20230920-bd784b9"]
+modules = ["nodejs-20", "go-1.21"]
 hidden = [".config", "package-lock.json"]
-# run = "npm run dev"
-run = "npm run build && miniserve public --index index.html"
+run = "npm run dev"
 entrypoint = "README.md"
 
 [gitHubImport]
@@ -19,5 +18,5 @@ deploymentTarget = "cloudrun"
 ignorePorts = false
 
 [[ports]]
-localPort = 8080
+localPort = 1313
 externalPort = 80
