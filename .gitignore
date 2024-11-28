@@ -10,6 +10,7 @@ builds
 package-lock.json
 public
 resources
+_vendor
 .hugo_build.lock
 jsconfig.json
 hugo_stats.json
